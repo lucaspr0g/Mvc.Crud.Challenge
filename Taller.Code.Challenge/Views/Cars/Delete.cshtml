@@ -1,0 +1,30 @@
+﻿@model Taller.Code.Challenge.Models.Car
+
+@{
+	ViewData["Title"] = "Delete Car";
+}
+
+<div class="row">
+	<div class="col-md-12">
+		<p>Are you sure you want to delete @Model.Make - @Model.Model?</p>
+		<form asp-action="Delete" method="post">
+			<div class="form-group">
+				<input asp-for="Id" class="form-control" />
+				<span asp-validation-for="Id" class="text-danger"></span>
+			</div>
+
+			<input type="submit" value="Confirm" class="btn btn-danger" />
+			<a asp-action="Index" class="btn btn-secondary">Cancel</a>
+		</form>
+	</div>
+</div>
+<br />
+<div>
+	<a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+	@{
+		await Html.RenderPartialAsync("_ValidationScriptsPartial");
+	}
+}

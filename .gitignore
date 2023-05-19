@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/Taller.Code.Challenge/bin/Debug/net7.0
+/Taller.Code.Challenge/obj
