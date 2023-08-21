@@ -1,6 +1,6 @@
-using Taller.Code.Challenge.Interfaces;
-using Taller.Code.Challenge.Repositories;
-using Taller.Code.Challenge.Services;
+using Mvc.Crud.Challenge.Interfaces;
+using Mvc.Crud.Challenge.Repositories;
+using Mvc.Crud.Challenge.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 

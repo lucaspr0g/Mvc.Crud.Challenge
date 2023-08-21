@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taller.Code.Challenge", "Taller.Code.Challenge\Taller.Code.Challenge.csproj", "{AEC9A1FF-0C65-46A8-9333-61342043506D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mvc.Crud.Challenge", "Taller.Code.Challenge\Mvc.Crud.Challenge.csproj", "{AEC9A1FF-0C65-46A8-9333-61342043506D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

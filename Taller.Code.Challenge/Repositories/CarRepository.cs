@@ -1,7 +1,7 @@
-﻿using Taller.Code.Challenge.Interfaces;
-using Taller.Code.Challenge.Models;
+﻿using Mvc.Crud.Challenge.Interfaces;
+using Mvc.Crud.Challenge.Models;
 
-namespace Taller.Code.Challenge.Repositories
+namespace Mvc.Crud.Challenge.Repositories
 {
 	public class CarRepository : Context, ICarRepository 
 	{

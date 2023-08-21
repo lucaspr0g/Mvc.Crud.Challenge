@@ -1,6 +1,6 @@
-﻿using Taller.Code.Challenge.Models;
+﻿using Mvc.Crud.Challenge.Models;
 
-namespace Taller.Code.Challenge.Repositories
+namespace Mvc.Crud.Challenge.Repositories
 {
 	public class Context
 	{

@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Taller.Code.Challenge.Interfaces;
-using Taller.Code.Challenge.Models;
+using Mvc.Crud.Challenge.Interfaces;
+using Mvc.Crud.Challenge.Models;
 
-namespace Taller.Code.Challenge.Controllers
+namespace Mvc.Crud.Challenge.Controllers
 {
 	public class CarsController : Controller
 	{

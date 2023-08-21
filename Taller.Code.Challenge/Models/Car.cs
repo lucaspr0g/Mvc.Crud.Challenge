@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Taller.Code.Challenge.Models
+namespace Mvc.Crud.Challenge.Models
 {
     public class Car
     {

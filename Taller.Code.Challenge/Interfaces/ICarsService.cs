@@ -1,6 +1,6 @@
-﻿using Taller.Code.Challenge.Models;
+﻿using Mvc.Crud.Challenge.Models;
 
-namespace Taller.Code.Challenge.Interfaces
+namespace Mvc.Crud.Challenge.Interfaces
 {
 	public interface ICarsService
 	{
